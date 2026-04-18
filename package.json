@@ -1,0 +1,21 @@
+{
+  "name": "darkpink",
+  "displayName": "DarkPink",
+  "description": "Theme for my Dark Mode and Pink lovers out there",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.116.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Mode Pink",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Mode Pink-color-theme.json"
+      }
+    ]
+  }
+}
