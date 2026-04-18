@@ -205,7 +205,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["variable", "string constant.other.placeholder", "invalid.deprecated", "keyword", "storage.type", "storage.modifier"],
+			"scope": ["variable", "string constant.other.placeholder", "invalid.deprecated", "keyword", "storage.type", "storage.modifier", "meta.brace.round", "meta.brace.square", "meta.brace.angle", "meta.brace.curly", "meta.block"],
 			"settings": {
 				"foreground": "#F3DF91"
 			}
@@ -217,7 +217,7 @@
 			}
 		},
 		{
-			"scope": ["punctuation.definition.interpolation.end.bracket.curly.scss", "punctuation.definition.interpolation.begin.bracket.curly.scss"],
+			"scope": ["punctuation.definition.interpolation.end.bracket.curly.scss", "punctuation.definition.interpolation.begin.bracket.curly.scss", "punctuation.definition.template-expression.begin.js", "punctuation.definition.template-expression.end.js"],
 			"settings": {
 				"foreground": "#B28EF5"
 			}
@@ -247,7 +247,7 @@
 			}
 		},
 		{
-			"scope": ["keyword.control", "constant.other.color", "punctuation.definition.tag", "punctuation", "punctuation.separator.inheritance.php", "punctuation.definition.tag.html", "punctuation.section.embedded", "keyword.other.template", "keyword.other.substitution", "entity.name.tag.reference.scss"],
+			"scope": ["constant.other.color", "punctuation.definition.tag", "punctuation", "punctuation.separator.inheritance.php", "punctuation.definition.tag.html", "punctuation.section.embedded", "keyword.other.template", "keyword.other.substitution", "entity.name.tag.reference.scss"],
 			"settings": {
 				"foreground": "#BFA1F7"
 			}
@@ -259,7 +259,7 @@
 			}
 		},
 		{
-			"scope": ["keyword.control.at-rule", "punctuation.terminator.rule.css", "keyword.control.operator", "punctuation.definition.entity.css", "keyword.operator.assignment.js", "punctuation.separator.comma.js", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js", "punctuation.definition.binding-pattern.object.js"],
+			"scope": ["keyword.control.at-rule", "punctuation.terminator.rule.css", "keyword.control.operator", "punctuation.definition.entity.css", "keyword.operator.assignment.js", "punctuation.separator.comma.js", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js", "punctuation.definition.binding-pattern.object.js", "punctuation.terminator.statement.js"],
 			"settings": {
 				"foreground": "#FFEBE9"
 			}
@@ -267,13 +267,14 @@
 		{
 			"scope": ["punctuation.definition", "string.quoted.single.scss"],
 			"settings": {
-				"foreground": "#A7A8AF"
+				"foreground": "#FF85D8"
 			}
 		},
 		{
 			"scope": ["keyword.control"],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#D6FFD6"
 			}
 		},
 		{
@@ -308,7 +309,7 @@
 			}
 		},
 		{
-			"scope": ["variable.other.object.js", "storage.type.js", "string.other.link.title.markdown", "variable.other.readwrite.js", "variable.other.property.js"],
+			"scope": ["variable.other.object.js", "storage.type.js", "string.other.link.title.markdown"],
 			"settings": {
 				"foreground": "#FF85D8",
 				"fontStyle": ""
@@ -338,14 +339,16 @@
 				"entity.name.tag.other.html",
 				"entity.name.tag.block.any.html",
 				"source.sass keyword.control",
-				"meta.function-call"
+				"meta.function-call",
+				"variable.other.property.js",
+				"variable.other.readwrite.js"
 			],
 			"settings": {
 				"foreground": "#FFC2EC"
 			}
 		},
 		{
-			"scope": ["punctuation.definition.string.begin.html", "punctuation.definition.string.end.html", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js"],
+			"scope": ["punctuation.definition.string.begin.html", "punctuation.definition.string.end.html", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js", "punctuation.definition.string.template.begin.js", "punctuation.definition.string.template.end.js"],
 			"settings": {
 				"foreground": "#D6FFD6"
 			}
@@ -413,7 +416,7 @@
 			}
 		},
 		{
-			"scope": ["entity.other.attribute-name.id", "entity.other.attribute-name.class", "entity.other.attribute-name.pseudo-class", "entity.name.tag.css", "keyword.control.conditional.js", "support.constant", "entity.other.attribute-name.html", "string.quoted.single.js", "storage.type.function.js", "meta.object-literal.key"],
+			"scope": ["entity.other.attribute-name.id", "entity.other.attribute-name.class", "entity.other.attribute-name.pseudo-class", "entity.name.tag.css", "support.constant", "entity.other.attribute-name.html", "storage.type.function.js", "meta.object-literal.key"],
 			"settings": {
 				"foreground": "#FF85D8"
 			}
