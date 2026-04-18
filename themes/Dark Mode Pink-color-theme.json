@@ -207,7 +207,7 @@
 		{
 			"scope": ["variable", "string constant.other.placeholder", "invalid.deprecated", "keyword", "storage.type", "storage.modifier"],
 			"settings": {
-				"foreground": "#BFA1F7"
+				"foreground": "#F3DF91"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 		{
 			"scope": ["invalid", "invalid.illegal"],
 			"settings": {
-				"foreground": "#ADFFAD"
+				"foreground": "#D6FFD6"
 			}
 		},
 		{
@@ -249,7 +249,7 @@
 		{
 			"scope": ["keyword.control", "constant.other.color", "punctuation.definition.tag", "punctuation", "punctuation.separator.inheritance.php", "punctuation.definition.tag.html", "punctuation.section.embedded", "keyword.other.template", "keyword.other.substitution", "entity.name.tag.reference.scss"],
 			"settings": {
-				"foreground": "#A7A8AF"
+				"foreground": "#BFA1F7"
 			}
 		},
 		{
@@ -297,7 +297,8 @@
 		{
 			"scope": ["entity.name.tag.html"],
 			"settings": {
-				"fontStyle": "bold"
+				"fontStyle": "bold",
+				"foreground": "#FF85D8"
 			}
 		},
 		{
@@ -309,14 +310,18 @@
 		{
 			"scope": ["variable.other.object.js", "storage.type.js", "string.other.link.title.markdown", "variable.other.readwrite.js", "variable.other.property.js"],
 			"settings": {
-				"foreground": "#FFC2EC",
+				"foreground": "#FF85D8",
 				"fontStyle": ""
 			}
 		},
 		{
+			"scope": ["string", "string.quoted.double.js", "string.quoted.single.js", "string.quoted.double.css", "string.quoted.single.css", "string.quoted.double.scss", "string.quoted.single.scss", "string.quoted.double.less", "string.quoted.single.less", "string.quoted.double.stylus", "string.quoted.single.stylus"],
+			"settings": {
+				"foreground": "#D6FFD6"
+			}
+		},
+		{
 			"scope": [
-				"string",
-				"string.quoted.double.html",
 				"variable.other.constant.js",
 				"variable.other.object.property.js",
 				"string.quoted.double.json",
@@ -332,16 +337,17 @@
 				"variable.function.constructor",
 				"entity.name.tag.other.html",
 				"entity.name.tag.block.any.html",
-				"source.sass keyword.control"
+				"source.sass keyword.control",
+				"meta.function-call"
 			],
 			"settings": {
-				"foreground": "#FFD6F2"
+				"foreground": "#FFC2EC"
 			}
 		},
 		{
-			"scope": ["punctuation.definition.string.begin.html", "punctuation.definition.string.end.html"],
+			"scope": ["punctuation.definition.string.begin.html", "punctuation.definition.string.end.html", "punctuation.definition.string.begin.js", "punctuation.definition.string.end.js"],
 			"settings": {
-				"foreground": "#FFEBE9"
+				"foreground": "#D6FFD6"
 			}
 		},
 		{
@@ -390,7 +396,7 @@
 		{
 			"scope": ["entity.name.module.js", "variable.import.parameter.js", "variable.other.class.js"],
 			"settings": {
-				"foreground": "#ADFFAD"
+				"foreground": "#D6FFD6"
 			}
 		},
 		{
@@ -409,7 +415,7 @@
 		{
 			"scope": ["entity.other.attribute-name.id", "entity.other.attribute-name.class", "entity.other.attribute-name.pseudo-class", "entity.name.tag.css", "keyword.control.conditional.js", "support.constant", "entity.other.attribute-name.html", "string.quoted.single.js", "storage.type.function.js", "meta.object-literal.key"],
 			"settings": {
-				"foreground": "#FFEBE9"
+				"foreground": "#FF85D8"
 			}
 		},
 		{
@@ -427,7 +433,7 @@
 		{
 			"scope": ["markup.deleted"],
 			"settings": {
-				"foreground": "#ADFFAD"
+				"foreground": "#D6FFD6"
 			}
 		},
 		{
