@@ -1,21 +1,31 @@
 {
-  "name": "darkpink",
-  "displayName": "DarkPink",
-  "description": "Theme for my Dark Mode and Pink lovers out there",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.116.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Dark Mode Pink",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Dark Mode Pink-color-theme.json"
-      }
-    ]
-  }
+	"name": "dark-mode-pink-theme",
+	"displayName": "Dark Mode Pink Theme",
+	"description": "Theme for my Dark Mode and Pink lovers out there",
+	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/elleordona/dark-pink-theme"
+	},
+	"publisher": "elleordona",
+	"engines": {
+		"vscode": "^1.116.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"dark",
+		"pink",
+		"dark mode"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Mode Pink Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-mode-pink-color-theme.json"
+			}
+		]
+	}
 }
