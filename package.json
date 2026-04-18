@@ -19,6 +19,7 @@
 		"pink",
 		"dark mode"
 	],
+	"icon": "images/icon.png",
 	"contributes": {
 		"themes": [
 			{
