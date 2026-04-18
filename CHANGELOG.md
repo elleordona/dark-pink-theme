@@ -10,3 +10,4 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - v0.0.2 Updates to package.json
 - v0.0.2 Updates syntax highlighting
 - v0.0.2 Change file name of theme json
+- v0.0.3 Added syntax highlighting for python and json
