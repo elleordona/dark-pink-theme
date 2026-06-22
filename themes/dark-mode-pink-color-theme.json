@@ -278,7 +278,7 @@
 			}
 		},
 		{
-			"scope": ["comment.line.scss", "comment.line.double-slash.js", "comment.line.number-sign.python", "punctuation.definition.comment.scss", "punctuation.definition.comment.js", "punctuation.definition.comment.html", "comment.block.html", "punctuation.definition.comment.python"],
+			"scope": ["comment.line.scss", "comment.line.double-slash.js", "comment.line.number-sign.python", "punctuation.definition.comment.scss", "punctuation.definition.comment.js", "punctuation.definition.comment.html", "comment.block.html", "punctuation.definition.comment.python", "comment.*"],
 			"settings": {
 				"foreground": "#6D6F7C"
 			}
@@ -316,7 +316,7 @@
 			}
 		},
 		{
-			"scope": ["string", "string.quoted.double.js", "string.quoted.single.js", "string.quoted.double.css", "string.quoted.single.css", "string.quoted.double.scss", "string.quoted.single.scss", "string.quoted.double.less", "string.quoted.single.less", "string.quoted.double.stylus", "string.quoted.single.stylus"],
+			"scope": ["string", "string.quoted.double.js", "string.quoted.single.js", "string.quoted.double.css", "string.quoted.single.css", "string.quoted.double.scss", "string.quoted.single.scss", "string.quoted.double.less", "string.quoted.single.less", "string.quoted.double.stylus", "string.quoted.single.stylus", "string.quoted.single.*", "string.quoted.double.*"],
 			"settings": {
 				"foreground": "#D6FFD6"
 			}
